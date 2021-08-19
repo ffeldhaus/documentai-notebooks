@@ -1,0 +1,18 @@
+[
+    {
+        "type_": "OCR_PROCESSOR",
+        "supported_file_types": ["PDF", "TIF", "TIFF", "GIF", "JPG", "JPEG", "PNG", "BMP", "WEBP"],
+        "max_pages_sync": 10,
+        "max_pages_async": 500,
+        "max_size_bytes_sync": 20971520,
+        "max_size_bytes_async": 20971520
+    },
+    {
+        "type_": "FORM_PARSER_PROCESSOR",
+        "supported_file_types": ["PDF", "TIF", "TIFF", "GIF", "JPG", "JPEG", "PNG", "BMP", "WEBP"],
+        "max_pages_sync": 5,
+        "max_pages_async": 100,
+        "max_size_bytes_sync": 20971520,
+        "max_size_bytes_async": 1073741824
+    }
+]
